@@ -1,0 +1,20 @@
+Your Goal: Complete the average function
+
+1- Taking what you learned above, find the average of four numerical values a, b, c, and d.
+2- Once you have found the average, be sure to return it.
+
+
+------
+
+
+answer
+
+
+function average(a, b, c, d) {
+    const output = (a + b + c + d) / 4;
+    
+    return output
+    
+}
+
+module.exports = average;

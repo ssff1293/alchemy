@@ -1,0 +1,19 @@
+Your Goal: Complete getRandom function
+
+1- Inside getRandom, get a random number from the Math.random() function.
+2- Then, return that number!
+
+
+-------
+
+answer
+
+
+function getRandom() {
+    const output = Math.random()
+
+    return output
+
+}
+
+module.exports = getRandom;

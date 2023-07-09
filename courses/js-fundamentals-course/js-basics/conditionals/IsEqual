@@ -1,0 +1,21 @@
+Your Goal: Check Equal
+Let's complete the isEqual function!
+
+1- If a is equal to b return true.
+
+
+------
+
+
+answer
+
+
+function isEqual(a, b) {
+    
+    if (a===b){
+        return true
+    }
+
+}
+
+module.exports = isEqual;

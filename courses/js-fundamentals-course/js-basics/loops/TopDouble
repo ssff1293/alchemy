@@ -1,0 +1,25 @@
+Your Goal: Complete the Top Double
+
+1- Using whichever loop you'd like, complete the top double function to find the largest double for the value that is below the top.
+
+
+
+------
+
+
+answer
+
+
+function topDouble(value, top) {
+    
+    while(value <= top){
+        value *= 2;
+        if(value>top){
+            break;
+        }
+    }
+
+    return (value / 2);
+}
+
+module.exports = topDouble;

@@ -1,0 +1,19 @@
+Your Goal: Complete the addTwo function
+
+1- Complete the addTwo function to take an input and add 2 to it.
+2- Return that sum.
+
+
+------
+
+answer
+
+
+function addTwo(input) {
+    const output = input + 2;
+
+    return output
+    
+}
+
+module.exports = addTwo;

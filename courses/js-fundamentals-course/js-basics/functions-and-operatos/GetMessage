@@ -1,0 +1,19 @@
+Your Goal: Return a string from getMessage
+
+1- In the getMessage function return a string. It can be any string that you choose!
+2- Once you have done this, click "Run Tests" or hit the enter key to move forward!
+
+
+
+--------
+
+
+answer 
+
+
+function getMessage() {
+    return "hello world";
+     
+}
+
+module.exports = getMessage;

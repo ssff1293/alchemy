@@ -1,0 +1,26 @@
+Your Goal: Check Equal
+Let's complete the isNotEqual function!
+
+1- If a is not equal to b return true.
+
+
+
+------
+
+
+answer
+
+
+
+function isNotEqual(a, b) {
+    if(a !== b){
+        return true
+    }
+    else{
+        return false
+    }
+    
+    
+}
+
+module.exports = isNotEqual;

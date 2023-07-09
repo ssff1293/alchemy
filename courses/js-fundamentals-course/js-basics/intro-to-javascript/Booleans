@@ -1,0 +1,13 @@
+Create two boolean variables a and b. Store true in one and false in the other.
+
+
+-------
+
+
+answer
+
+
+const a = 11 > 1;
+const b = false;
+
+module.exports = { a, b }
