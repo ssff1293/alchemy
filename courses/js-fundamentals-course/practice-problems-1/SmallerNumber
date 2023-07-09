@@ -1,0 +1,27 @@
+Your Goal: Return Smaller
+1- The function smallerNumber will be given two unequal numbers: num1 and num2.
+2- Your goal is to find the smaller number and return it!
+
+
+
+------
+
+
+answer
+
+
+function smallerNumber(num1, num2) {
+    let output = 0
+    if(num1 < num2){
+        output = num1;        
+    }
+    else{
+        output = num2;
+        
+    }
+
+    return output
+
+}
+
+module.exports = smallerNumber;

@@ -1,0 +1,27 @@
+Your Goal: Complete the Function
+
+1- Complete the startsWithX function to determine if the first character of the string argument is the lower-case x.
+2- If the first character is x return true. If not, return false.
+
+------
+
+
+
+answer
+
+
+function startsWithX(string) {
+    const firstCharacter = string[0].toLowerCase();
+    let output
+    if(firstCharacter === "x"){
+        output = true
+    }
+    else{
+        output = false
+    }
+    return output
+
+    
+}
+
+module.exports = startsWithX;

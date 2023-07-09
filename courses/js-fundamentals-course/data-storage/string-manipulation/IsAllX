@@ -1,0 +1,33 @@
+Your Goal: Is All X?
+
+
+Complete the function isAllX to determine if the entire string is made of lower-case x, upper-case X, or a mix of both. Return true if they are, false if not.
+
+
+---------
+
+
+answer
+
+
+function isAllX(string) { 
+    let output
+    for(let i = 0; i < string.length; i++) {
+        if(string[i].toLowerCase() === "x") {
+            output = true;
+            
+        }
+        else{
+            output = false;  
+            break;      
+        }
+        
+    } 
+    return output;    
+}
+    
+       
+        
+module.exports = isAllX;
+
+

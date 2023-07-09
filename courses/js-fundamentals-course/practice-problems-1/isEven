@@ -1,0 +1,26 @@
+Your Goal: Is It Even?
+1- Given an integer value num, determine if it is even.
+2- If it is even, return true. Return false otherwise.
+
+
+------
+
+
+answer 
+
+
+function isEven(num) {
+    const remainder = num % 2
+    const isOrNot = remainder === 0;
+    if(isOrNot){
+        return true
+    } 
+    else{
+        return false
+    }
+    
+    
+}
+
+module.exports = isEven;
+

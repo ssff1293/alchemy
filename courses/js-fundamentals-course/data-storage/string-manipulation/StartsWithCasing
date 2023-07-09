@@ -1,0 +1,26 @@
+Your Goal: Handle x and X
+
+Let's update our startsWithX function to return true for an upper-case X as well as a lower-case x.
+
+
+
+----------
+
+answer
+
+
+function startsWithX(string) {
+    const firstCharacter = string[0].toLowerCase();
+    let output
+    if(firstCharacter === "x"){
+        output = true
+    }
+    else{
+        output = false
+    }
+    return output
+
+    
+}
+
+module.exports = startsWithX;

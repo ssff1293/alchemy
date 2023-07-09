@@ -1,0 +1,15 @@
+Your Goal: Fill the Array
+
+Fill the array with the numbers 1, 2 and 3 in any order you choose!
+
+
+
+-------
+
+
+answer
+
+
+const array = [1,3,2];
+
+module.exports = array;
